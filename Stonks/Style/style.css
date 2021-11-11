@@ -1,0 +1,30 @@
+#flex-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.layer1 {
+  background-image: url('../Assets/Moon.jpg');
+  background-repeat:no-repeat;
+  font-style:italic;
+  background-color:black;
+  min-height:220px;
+
+}
+.layer1 h1{
+  color: red;
+}
+.layer2 h1{
+background-color:grey;
+}
+.layer3{
+  outline:5px black;
+}
+.layer3 button{
+width=100%;
+}
+
+.layer4{
+  outline:5px black;
+}
